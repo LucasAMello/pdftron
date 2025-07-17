@@ -6,11 +6,6 @@
 		<#include "css/common.css">
 	</style>
 	<style>
-		@font-face {
-			font-family: 'Inter';
-			src: url('/static/Inter.ttf') format('truetype');
-		}
-
 		.logo-header {
 			margin-left: 56px;
 			margin-top: 120px;
@@ -34,7 +29,7 @@
 			left: 0;
 			width: calc(100% - 48px);
 			height: 90px;
-			background-color: var(--blue-5);
+			background-color: #0f172b;
 			color: white;
 			padding: 24px 64px;
 			align-items: center;

@@ -21,7 +21,7 @@ RUN dnf install -y nss nss-util nspr dbus-libs atk at-spi2-atk libXcomposite  \
 
 # Create a directory for custom fonts and copy the Inter font
 RUN mkdir -p /usr/local/share/fonts/truetype/custom
-COPY src/main/resources/static/Inter.ttf /usr/local/share/fonts/truetype/custom/Inter.ttf
+COPY src/main/resources/static/Inter.ttc /usr/local/share/fonts/truetype/custom/Inter.ttc
 
 # Update the font cache to make the new font available system-wide
 RUN fc-cache -f -v
